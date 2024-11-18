@@ -1,3 +1,23 @@
-"dependencies": {
-  "@vercel/go": "^1.23.2"
+{
+  "name": "school-project",
+  "version": "1.0.0",
+  "description": "Projeto da escola sobre Lógica de Programação com Go no Vercel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev", 
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/go": "^1.23.2"
+  },
+  "devDependencies": {
+    "vercel": "^39.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "peRodrigues",
+  "license": "MIT"
 }
+

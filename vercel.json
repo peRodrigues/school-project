@@ -1,7 +1,7 @@
 {
-  "functions": {
-    "api/index.go": {
-      "runtime": "@vercel/go@1.23.2"
+  "build": {
+    "env": {
+      "GO_BUILD_FLAGS": "-ldflags '-s -w'"
     }
   }
 }
