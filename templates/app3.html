@@ -14,25 +14,24 @@
         </div>
         <nav class="header__nav">
             <ul class="header__list">
-                <li class="header__item"><a href="#" class="header__link">Introdução</a></li>
-                <li class="header__item"><a href="#" class="header__link">Sobre Nós</a></li>
-                <li class="header__item"><a href="#" class="header__link header__link--button header__link--button-active">Aplicações</a></li>
-            </ul>
+                <li class="header__item"><a href="../static/index.html" class="header__link">Introdução</a></li>
+                <li class="header__item"><a href="../static/about-us.html" class="header__link">Sobre Nós</a></li>
+                <li class="header__item"><a href="../static/conteudos.html" class="header__link header__link--button header__link--button-active">Aplicações</a></li>            </ul>
         </nav>
     </header>
 
     <main class="main">
         <header class="main__header">
             <h1 class="main__title">
-                {{ .Title }}
+                Funções
             </h1>
             <p class="main__paragraph">
-                {{ .Paragraph }}
+                Digite um número. O programa invocará uma função que retorna o quadrado do número digitado.
             </p>
         </header>
         <section class="main__application">
-            <form class="main__form" action="script.js">
-                <input class="main__input" type="{{ .Type }}" placeholder="{{ .Placeholder }}">
+            <form class="main__form">
+                <input class="main__input" type="number" placeholder="Digite um número">
                 <button class="main__button">Enviar</button>
             </form>
             <div class="main__output">
@@ -46,5 +45,6 @@
             Feira do Conhecimento 2024 | Escola Estadual Maria Luiza Miranda Bastos | Curso Técnico de Informática - 1º Ano | Projeto: Lógica de Programação
         </span>
     </footer>
+    <script src="../app/ex03.js"></script>
 </body>
 </html>

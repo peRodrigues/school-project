@@ -105,6 +105,10 @@ body {
   margin-bottom: auto;
 }
 
+.main--app {
+  width: 60rem;
+}
+
 .main--static {
   background: none;
   gap: 0.4rem;
@@ -128,6 +132,25 @@ body {
 .main__paragraph {
   color: var(--text-color);
   font-size: 1rem;
+}
+
+.main__cards--app {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  gap: 1.2rem;
+}
+
+.main__card--app {
+  font-family: "JetBrains Mono", monospace;
+  background: var(--tertiary-bg);
+  padding: 1rem;
+  padding: 1.2rem
+}
+
+.main__card-link {
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 .main__application {
@@ -187,6 +210,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer--app {
+  margin-top: 2rem;
 }
 
 .footer__span {
